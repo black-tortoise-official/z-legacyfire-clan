@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+    <!-- SMALL GRIDS -->
+
+    <!-- Single Light Fighter -->
+    <!-- Use MinSpawnFromPlanetSurface to stop this spawning at player bases -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Fire-Archer-SG</SubtypeId>
+      </Id>
+      <Description>
+      [Modular Encounters SpawnGroup]
+        
+      [AtmosphericCargoShip:true]
+      [RivalAiSpawn:true]
+      [RivalAiAtmosphericSpawn:true]
+
+      [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
+      [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
+      [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
+      [ClearAuthorship:true]
+      [FactionOwner:FIRE]
+      [IgnoreGlobalBlockReplacer:true]
+      [MaxSpawnFromPlanetSurface:4000]
+      [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+      [PlanetRequiresAtmo:true]
+      [RandomGridNamePrefix:(FEC-F) ]
+      [ReplaceArmorBlocksWithModules:true]
+      [ReplenishSystems:true]
+      [RivalAiReplaceRemoteControl:true]
+      [ThreatScoreMinimum:55]
+      [ThreatScoreMaximum:300]      
+      [UseBlockReplacerProfile:true]
+      [UseRivalAi:true]
+      [UseThreatLevelCheck:true]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Fire-Archer">
+          <BeaconText>Archer</BeaconText>
+          <Behaviour>RAI-Behavior-Fire-Fighter</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>55</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+  </SpawnGroups>
+</Definitions>
