@@ -22,7 +22,7 @@
       [ClearAuthorship:true]
       [FactionOwner:FIRE]
       [IgnoreGlobalBlockReplacer:true]
-      [MinSpawnFromPlanetSurface:550]
+      [MinSpawnFromPlanetSurface:1000]
       [MaxSpawnFromPlanetSurface:5000]
       [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
       [PlanetRequiresAtmo:true]
