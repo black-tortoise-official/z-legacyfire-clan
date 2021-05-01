@@ -754,7 +754,7 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
-              <ContainerType>MES-StoreInv-IngotsAdvancedSmall-1</ContainerType>
+              <ContainerType>MES-StoreInv-IngotsBasicLarge-1</ContainerType>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SmallGatlingGun">
               <SubtypeName>OKI23mmDGfixed</SubtypeName>
