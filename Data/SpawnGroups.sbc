@@ -3,12 +3,11 @@
   <SpawnGroups>
     <!-- SMALL GRIDS -->
 
-    <!-- Single Light Fighter -->
-    <!-- Use MinSpawnFromPlanetSurface to stop this spawning at player bases -->
+    <!-- Single Light Easy Fighter -->
     <SpawnGroup>
       <Id>
         <TypeId>SpawnGroupDefinition</TypeId>
-        <SubtypeId>Fire-Archer-SG</SubtypeId>
+        <SubtypeId>Fire-Arrow-SG</SubtypeId>
       </Id>
       <Description>
       [Modular Encounters SpawnGroup]
@@ -31,7 +30,7 @@
       [ReplaceArmorBlocksWithModules:true]
       [ReplenishSystems:true]
       [RivalAiReplaceRemoteControl:true]
-      [ThreatScoreMinimum:50]
+      [ThreatScoreMinimum:40]
       [ThreatScoreMaximum:350]      
       [UseBlockReplacerProfile:true]
       [UseRivalAi:true]
@@ -39,6 +38,55 @@
       </Description>
       <IsPirate>true</IsPirate>
       <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Fire-Arrow">
+          <BeaconText>Arrow</BeaconText>
+          <Behaviour>RAI-Behavior-Fire-Fighter</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>55</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!-- Single Light Challenging Fighter -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Fire-Archer-SG</SubtypeId>
+      </Id>
+      <Description>
+      [Modular Encounters SpawnGroup]
+        
+      [AtmosphericCargoShip:true]
+      [RivalAiSpawn:true]
+      [RivalAiAtmosphericSpawn:true]
+
+      [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
+      [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
+      [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
+      [ClearAuthorship:true]
+      [FactionOwner:FIRE]
+      [IgnoreGlobalBlockReplacer:true]
+      [MinSpawnFromPlanetSurface:1000]
+      [MaxSpawnFromPlanetSurface:5000]
+      [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+      [PlanetRequiresAtmo:true]
+      [RandomGridNamePrefix:(FEC-F) ]
+      [ReplaceArmorBlocksWithModules:true]
+      [ReplenishSystems:true]
+      [RivalAiReplaceRemoteControl:true]
+      [ThreatScoreMinimum:50]
+      [ThreatScoreMaximum:350]      
+      [UseBlockReplacerProfile:true]
+      [UseRivalAi:true]
+      [UseThreatLevelCheck:true]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.5</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Fire-Archer">
           <BeaconText>Archer</BeaconText>
