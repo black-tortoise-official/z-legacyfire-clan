@@ -8,7 +8,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>Spawn-Fire-Drone-3-Assorted</SubtypeId>
+          <SubtypeId>Spawn-Fire-Many-Fighters-3-Assorted</SubtypeId>
       </Id>
       <Description>
       [RivalAI Spawn]
