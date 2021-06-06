@@ -10,14 +10,14 @@
       [RivalAI Behavior]
       [BehaviorName:Horsefly]
       [IdealMaxSpeed:300]
-      [IdealMinSpeed:40]
+      [IdealMinSpeed:55]
       [IdealPlanetAltitude:500]
       [MinimumPlanetAltitude:5]      
       [OffsetPlanetMinDistFromTarget:1]
       [OffsetPlanetMaxDistFromTarget:1500]
       [OffsetPlanetMinTargetAltitude:-1500]
       [OffsetPlanetMaxTargetAltitude:1500]
-      <!-- TODO : Trigger for ram into first target found -->
+      [Triggers:Trigger-Fire-Missile-Ram]
       [RamMinDurationMs:3000]
       [RamMaxDurationMs:60000]
       </Description>
