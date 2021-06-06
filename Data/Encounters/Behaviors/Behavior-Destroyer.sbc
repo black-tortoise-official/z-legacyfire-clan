@@ -9,7 +9,7 @@
       <Description>
       [RivalAI Behavior]
       [BehaviorName:CargoShip]
-      [AutopilotData:Autopilot-Fire-Destroyer] <!-- TODO -->
+      [AutopilotData:Autopilot-Fire-Destroyer]
        <!-- TODO : Trigger for single spawn of squad of drones -->
        <!-- TODO : Trigger for continuous spawn of a single small grid missile -->
       [UseAmmoReplenish:true]
