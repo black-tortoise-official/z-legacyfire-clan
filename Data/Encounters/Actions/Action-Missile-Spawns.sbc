@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- Spawn 1 Sm-Grid Missile, Assorted -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Action-Fire-Spawn-Repeat-Small-Missile-1-Assorted</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Action]
+      [SpawnEncounter:true]
+      [Spawner:Spawn-Fire-Repeat-Small-Missile-1-Assorted]
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>
