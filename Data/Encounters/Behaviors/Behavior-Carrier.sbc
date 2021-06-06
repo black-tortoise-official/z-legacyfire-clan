@@ -11,7 +11,7 @@
       [BehaviorName:CargoShip]
       [AutopilotData:Autopilot-Fire-Carrier]
       [Triggers:Trigger-Fire-Spawn-Many-Fighters-3-Assorted]
-      <!-- TODO : Trigger for repeat spawn of single fighter/drone -->
+      [Triggers:Trigger-Fire-Spawn-Repeat-Drone-Single]
       [UseAmmoReplenish:true]
       </Description>
     </EntityComponent>
