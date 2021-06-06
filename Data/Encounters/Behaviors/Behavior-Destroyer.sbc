@@ -10,8 +10,8 @@
       [RivalAI Behavior]
       [BehaviorName:CargoShip]
       [AutopilotData:Autopilot-Fire-Destroyer]
-       <!-- TODO : Trigger for single spawn of squad of drones -->
-       <!-- TODO : Trigger for continuous spawn of a single small grid missile -->
+      [Triggers:Trigger-Fire-Spawn-Onetime-Drone-3-Assorted]
+      <!-- TODO : Trigger for continuous spawn of a single small grid missile -->
       [UseAmmoReplenish:true]
       </Description>
     </EntityComponent>
