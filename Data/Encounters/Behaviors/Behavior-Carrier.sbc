@@ -9,7 +9,7 @@
       <Description>
       [RivalAI Behavior]
       [BehaviorName:CargoShip]
-      [AutopilotData:Autopilot-Fire-Carrier] <!-- TODO -->
+      [AutopilotData:Autopilot-Fire-Carrier]
        <!-- TODO : Trigger for many squads of fighters -->
        <!-- TODO : Trigger for repeat spawn of single fighter/drone -->
       [UseAmmoReplenish:true]
