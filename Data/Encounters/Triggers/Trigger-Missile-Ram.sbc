@@ -16,7 +16,7 @@
       [MinCooldownMs:1000]      
       [StartsReady:true]
       [TargetDistance:1500]
-      [Type:HasTarget]
+      [Type:PlayerNear]
       [UseTrigger:true]
       </Description>
     </EntityComponent>

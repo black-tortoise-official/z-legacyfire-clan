@@ -14,12 +14,12 @@
       [IdealPlanetAltitude:500]
       [MinimumPlanetAltitude:5]      
       [OffsetPlanetMinDistFromTarget:1]
-      [OffsetPlanetMaxDistFromTarget:1500]
-      [OffsetPlanetMinTargetAltitude:-1500]
-      [OffsetPlanetMaxTargetAltitude:1500]
+      [OffsetPlanetMaxDistFromTarget:5]
+      [OffsetPlanetMinTargetAltitude:-1]
+      [OffsetPlanetMaxTargetAltitude:5]
       [Triggers:Trigger-Fire-Missile-Ram]
       [RamMinDurationMs:3000]
-      [RamMaxDurationMs:60000]
+      [RamMaxDurationMs:120000]
       </Description>
     </EntityComponent>
 	</EntityComponents>
