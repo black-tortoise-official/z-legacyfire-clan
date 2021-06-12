@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- Spawn 3 Assorted Fighters -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Action-Fire-Spawn-Many-Fighters-3-Assorted</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Action]
+      [SpawnEncounter:true]
+      [Spawner:Spawn-Fire-Many-Fighters-3-Assorted]
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

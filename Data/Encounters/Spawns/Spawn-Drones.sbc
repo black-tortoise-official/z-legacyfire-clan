@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+    <!-- SINGLE -->
+
+    <!-- Repeat Single Drone, Assorted -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>Spawn-Fire-Repeat-Drone-Single</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Spawn]
+      [UseSpawn:true]
+
+      [IgnoreSafetyChecks:true]
+      [InheritNpcAltitude:true]
+      [MaxSpawns:-1]
+      [MinDistance:300]
+      [MaxDistance:600]
+      [MinAltitude:50]
+      [MaxAltitude:300]
+      [SpawnGroups:Fire-Ember-SG]
+      [SpawnGroups:Fire-Flame-SG]
+      [SpawnGroups:Fire-Spark-SG]
+      [StartsReady:true]      
+      [UseRelativeSpawnPosition:false] 
+      </Description>    
+    </EntityComponent>
+
+    <!-- SQUADS -->
+
+    <!-- Onetime Squad of 3 Drones, Assorted -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>Spawn-Fire-Drone-3-Assorted</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Spawn]
+      [UseSpawn:true]
+
+      [IgnoreSafetyChecks:true]
+      [InheritNpcAltitude:true]
+      [MaxSpawns:1]
+      [MinDistance:300]
+      [MaxDistance:600]
+      [MinAltitude:50]
+      [MaxAltitude:300]  
+      [SpawnGroups:Fire-Drones-3-SG]
+      [StartsReady:true]      
+      [UseRelativeSpawnPosition:false] 
+      </Description>    
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

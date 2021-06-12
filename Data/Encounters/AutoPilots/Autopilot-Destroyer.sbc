@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+      <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Autopilot-Fire-Destroyer</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Autopilot]
+      
+      [AllowStrafing:true]
+      [AltitudeTolerance:300]
+      [CollisionEvasionResumeTime:120]
+      [CollisionEvasionWaypointDistance:350]
+      [DisableInertiaDampeners:false]
+      [ExtraSlowDownDistance:300]
+      [FlyLevelWithGravity:true]
+      [IdealPlanetAltitude:1500]
+      [IdealMinSpeed:25]
+      [IdealMaxSpeed:50]
+      [LevelWithGravityWhenIdle:true]
+      [MaxSpeedTolerance:25]
+      [MaxVerticalSpeed:30]
+      [MinimumPlanetAltitude:550]
+      [SlowDownOnWaypointApproach:true]
+      [StrafeMaxCooldownMs:15000]
+      [StrafeMinCooldownMs:5000]
+      [StrafeMinimumTargetDistance:800]
+      [StrafeMaxDurationMs:3000]
+      [StrafeMinDurationMs:1800]
+      [UseProjectileLeadPrediction:true]
+      [UseVelocityCollisionEvasion:true]
+      [WaypointTolerance:800]
+      [WaypointWaitTimeTrigger:60]
+      </Description>
+    </EntityComponent>
+  </EntityComponents>
+</Definitions>

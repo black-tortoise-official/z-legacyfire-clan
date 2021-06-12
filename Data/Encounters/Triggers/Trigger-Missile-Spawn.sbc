@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- SMALL GRID -->
+
+    <!-- Spawn Repeat Instance of Single Small Grid Nuke, Assorted -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Trigger-Fire-Spawn-Repeat-Small-Missile</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Trigger]
+
+      [Actions:Action-Fire-Spawn-Repeat-Small-Missile-1-Assorted]
+      [MaxActions:-1]
+      [MaxCooldownMs:120000]
+      [MinCooldownMs:30000]            
+      [StartsReady:true]
+      [TargetDistance:2000]
+      [Type:PlayerNear]
+      [UseTrigger:true]
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

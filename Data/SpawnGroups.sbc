@@ -17,12 +17,13 @@
       [RivalAiAtmosphericSpawn:true]
 
       [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
       [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
       [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
       [ClearAuthorship:true]
       [FactionOwner:FIRE]
       [IgnoreGlobalBlockReplacer:true]
-      [MinSpawnFromPlanetSurface:1000]
+      [MinSpawnFromPlanetSurface:900]
       [MaxSpawnFromPlanetSurface:5000]
       [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
       [PlanetRequiresAtmo:true]
@@ -31,13 +32,13 @@
       [ReplenishSystems:true]
       [RivalAiReplaceRemoteControl:true]
       [ThreatScoreMinimum:40]
-      [ThreatScoreMaximum:350]      
+      [ThreatScoreMaximum:1500]      
       [UseBlockReplacerProfile:true]
       [UseRivalAi:true]
       [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>1.0</Frequency>
+      <Frequency>4.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Fire-Arrow">
           <BeaconText>Arrow</BeaconText>
@@ -66,12 +67,13 @@
       [RivalAiAtmosphericSpawn:true]
 
       [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
       [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
       [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
       [ClearAuthorship:true]
       [FactionOwner:FIRE]
       [IgnoreGlobalBlockReplacer:true]
-      [MinSpawnFromPlanetSurface:1000]
+      [MinSpawnFromPlanetSurface:900]
       [MaxSpawnFromPlanetSurface:5000]
       [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
       [PlanetRequiresAtmo:true]
@@ -80,13 +82,13 @@
       [ReplenishSystems:true]
       [RivalAiReplaceRemoteControl:true]
       [ThreatScoreMinimum:50]
-      [ThreatScoreMaximum:350]      
+      [ThreatScoreMaximum:1500]      
       [UseBlockReplacerProfile:true]
       [UseRivalAi:true]
       [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.5</Frequency>
+      <Frequency>4.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Fire-Archer">
           <BeaconText>Archer</BeaconText>
@@ -100,5 +102,669 @@
         </Prefab>
       </Prefabs>
     </SpawnGroup>
+
+    <!-- Single Air Support Medium Fighter -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Fire-Meteor-SG</SubtypeId>
+      </Id>
+      <Description>
+      [Modular Encounters SpawnGroup]
+        
+      [AtmosphericCargoShip:true]
+      [RivalAiSpawn:true]
+      [RivalAiAtmosphericSpawn:true]
+
+      [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+      [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
+      [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
+      [ClearAuthorship:true]
+      [FactionOwner:FIRE]
+      [IgnoreGlobalBlockReplacer:true]
+      [MinSpawnFromPlanetSurface:500]
+      [MaxSpawnFromPlanetSurface:5000]
+      [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+      [PlanetRequiresAtmo:true]
+      [RandomGridNamePrefix:(FEC-F) ]
+      [ReplaceArmorBlocksWithModules:true]
+      [ReplenishSystems:true]
+      [RivalAiReplaceRemoteControl:true]
+      [ThreatScoreMinimum:85]
+      [ThreatScoreMaximum:3500]      
+      [UseBlockReplacerProfile:true]
+      [UseRivalAi:true]
+      [UseThreatLevelCheck:true]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>4.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Fire-Meteor">
+          <BeaconText>Meteor</BeaconText>
+          <Behaviour>RAI-Behavior-Fire-Horsefly</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>55</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!-- Single Drone -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Fire-Spark-SG</SubtypeId>
+      </Id>
+      <Description>
+      [Modular Encounters SpawnGroup]
+        
+      [AtmosphericCargoShip:true]
+      [RivalAiSpawn:true]
+      [RivalAiAtmosphericSpawn:true]
+
+      [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+      [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
+      [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
+      [ClearAuthorship:true]
+      [FactionOwner:FIRE]
+      [IgnoreGlobalBlockReplacer:true]
+      [MinSpawnFromPlanetSurface:500]
+      [MaxSpawnFromPlanetSurface:5000]
+      [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+      [PlanetRequiresAtmo:true]
+      [RandomGridNamePrefix:(FEC-F) ]
+      [ReplaceArmorBlocksWithModules:true]
+      [ReplenishSystems:true]
+      [RivalAiReplaceRemoteControl:true]
+      [ThreatScoreMinimum:40]
+      [ThreatScoreMaximum:1500]      
+      [UseBlockReplacerProfile:true]
+      [UseRivalAi:true]
+      [UseThreatLevelCheck:true]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.1</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Fire-Spark">
+          <BeaconText>Spark</BeaconText>
+          <Behaviour>RAI-Behavior-Fire-Fighter</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>55</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!-- Single Drone -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Fire-Flame-SG</SubtypeId>
+      </Id>
+      <Description>
+      [Modular Encounters SpawnGroup]
+        
+      [AtmosphericCargoShip:true]
+      [RivalAiSpawn:true]
+      [RivalAiAtmosphericSpawn:true]
+
+      [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+      [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
+      [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
+      [ClearAuthorship:true]
+      [FactionOwner:FIRE]
+      [IgnoreGlobalBlockReplacer:true]
+      [MinSpawnFromPlanetSurface:500]
+      [MaxSpawnFromPlanetSurface:5000]
+      [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+      [PlanetRequiresAtmo:true]
+      [RandomGridNamePrefix:(FEC-F) ]
+      [ReplaceArmorBlocksWithModules:true]
+      [ReplenishSystems:true]
+      [RivalAiReplaceRemoteControl:true]
+      [ThreatScoreMinimum:40]
+      [ThreatScoreMaximum:1500]      
+      [UseBlockReplacerProfile:true]
+      [UseRivalAi:true]
+      [UseThreatLevelCheck:true]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.1</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Fire-Flame">
+          <BeaconText>Flame</BeaconText>
+          <Behaviour>RAI-Behavior-Fire-Fighter</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>55</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!-- Single Drone -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Fire-Ember-SG</SubtypeId>
+      </Id>
+      <Description>
+      [Modular Encounters SpawnGroup]
+        
+      [AtmosphericCargoShip:true]
+      [RivalAiSpawn:true]
+      [RivalAiAtmosphericSpawn:true]
+
+      [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+      [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
+      [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
+      [ClearAuthorship:true]
+      [FactionOwner:FIRE]
+      [IgnoreGlobalBlockReplacer:true]
+      [MinSpawnFromPlanetSurface:500]
+      [MaxSpawnFromPlanetSurface:5000]
+      [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+      [PlanetRequiresAtmo:true]
+      [RandomGridNamePrefix:(FEC-F) ]
+      [ReplaceArmorBlocksWithModules:true]
+      [ReplenishSystems:true]
+      [RivalAiReplaceRemoteControl:true]
+      [ThreatScoreMinimum:40]
+      [ThreatScoreMaximum:1500]      
+      [UseBlockReplacerProfile:true]
+      [UseRivalAi:true]
+      [UseThreatLevelCheck:true]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.1</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Fire-Ember">
+          <BeaconText>Ember</BeaconText>
+          <Behaviour>RAI-Behavior-Fire-Fighter</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>55</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!-- Single Drone - PMM -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Fire-Missile-SG</SubtypeId>
+      </Id>
+      <Description>
+      [Modular Encounters SpawnGroup]
+        
+      [AtmosphericCargoShip:true]
+      [RivalAiSpawn:true]
+      [RivalAiAtmosphericSpawn:true]
+
+      [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+      [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
+      [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
+      [ClearAuthorship:true]
+      [FactionOwner:FIRE]
+      [IgnoreGlobalBlockReplacer:true]
+      [MinSpawnFromPlanetSurface:500]
+      [MaxSpawnFromPlanetSurface:5000]
+      [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+      [PlanetRequiresAtmo:true]
+      [RandomGridNamePrefix:(FEC-F) ]
+      [ReplaceArmorBlocksWithModules:true]
+      [ReplenishSystems:true]
+      [RivalAiReplaceRemoteControl:true]
+      [ThreatScoreMinimum:40]
+      [ThreatScoreMaximum:5000]      
+      [UseBlockReplacerProfile:true]
+      [UseRivalAi:true]
+      [UseThreatLevelCheck:true]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.1</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Fire-Missile">
+          <BeaconText>Missile</BeaconText>
+          <Behaviour>RAI-Behavior-Fire-Missile</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>95</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!-- Single Drone - PMM -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Fire-Missile-II-SG</SubtypeId>
+      </Id>
+      <Description>
+      [Modular Encounters SpawnGroup]
+        
+      [AtmosphericCargoShip:true]
+      [RivalAiSpawn:true]
+      [RivalAiAtmosphericSpawn:true]
+
+      [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+      [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
+      [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
+      [ClearAuthorship:true]
+      [FactionOwner:FIRE]
+      [IgnoreGlobalBlockReplacer:true]
+      [MinSpawnFromPlanetSurface:500]
+      [MaxSpawnFromPlanetSurface:5000]
+      [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+      [PlanetRequiresAtmo:true]
+      [RandomGridNamePrefix:(FEC-F) ]
+      [ReplaceArmorBlocksWithModules:true]
+      [ReplenishSystems:true]
+      [RivalAiReplaceRemoteControl:true]
+      [ThreatScoreMinimum:40]
+      [ThreatScoreMaximum:5000]      
+      [UseBlockReplacerProfile:true]
+      [UseRivalAi:true]
+      [UseThreatLevelCheck:true]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.1</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Fire-Missile-II">
+          <BeaconText>Missile II</BeaconText>
+          <Behaviour>RAI-Behavior-Fire-Missile</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>95</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!-- Squad of 3 Assorted Drones -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Fire-Drones-3-SG</SubtypeId>
+      </Id>
+      <Description>
+      [Modular Encounters SpawnGroup]
+        
+      [AtmosphericCargoShip:true]
+      [RivalAiSpawn:true]
+      [RivalAiAtmosphericSpawn:true]
+
+      [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+      [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
+      [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]      
+      [ClearAuthorship:true]
+      [FactionOwner:FIRE]
+      [IgnoreGlobalBlockReplacer:true]
+      [MinSpawnFromPlanetSurface:500]
+      [MaxSpawnFromPlanetSurface:5000]
+      [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+      [PlanetRequiresAtmo:true]
+      [RandomGridNamePrefix:(FEC-F) ]
+      [ReplaceArmorBlocksWithModules:true]
+      [ReplenishSystems:true]
+      [RivalAiReplaceRemoteControl:true]
+      [ThreatScoreMinimum:85]
+      [ThreatScoreMaximum:5000]      
+      [UseBlockReplacerProfile:true]
+      [UseRivalAi:true]
+      [UseThreatLevelCheck:true]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Fire-Ember">
+          <BeaconText>Ember</BeaconText>
+          <Behaviour>RAI-Behavior-Fire-Fighter</Behaviour>
+          <Position>
+            <X>100.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>55</Speed>
+        </Prefab>
+        <Prefab SubtypeId="Fire-Flame">
+          <BeaconText>Flame</BeaconText>
+          <Behaviour>RAI-Behavior-Fire-Fighter</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>55</Speed>
+        </Prefab>
+        <Prefab SubtypeId="Fire-Spark">
+          <BeaconText>Spark</BeaconText>
+          <Behaviour>RAI-Behavior-Fire-Fighter</Behaviour>
+          <Position>
+            <X>-100.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>55</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    
+    <!-- Squad of 3 Assorted Fighters -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Fire-Fighters-3-SG</SubtypeId>
+      </Id>
+      <Description>
+      [Modular Encounters SpawnGroup]
+        
+      [AtmosphericCargoShip:true]
+      [RivalAiSpawn:true]
+      [RivalAiAtmosphericSpawn:true]
+
+      [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+      [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
+      [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]      
+      [ClearAuthorship:true]
+      [FactionOwner:FIRE]
+      [IgnoreGlobalBlockReplacer:true]
+      [MinSpawnFromPlanetSurface:900]
+      [MaxSpawnFromPlanetSurface:5000]
+      [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+      [PlanetRequiresAtmo:true]
+      [RandomGridNamePrefix:(FEC-F) ]
+      [ReplaceArmorBlocksWithModules:true]
+      [ReplenishSystems:true]
+      [RivalAiReplaceRemoteControl:true]
+      [ThreatScoreMinimum:100]
+      [ThreatScoreMaximum:5000]
+      [UseBlockReplacerProfile:true]
+      [UseRivalAi:true]
+      [UseThreatLevelCheck:true]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>3.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Fire-Arrow">
+          <BeaconText>Arrow-Alpha</BeaconText>
+          <Behaviour>RAI-Behavior-Fire-Fighter</Behaviour>
+          <Position>
+            <X>100.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>55</Speed>
+        </Prefab>
+        <Prefab SubtypeId="Fire-Archer">
+          <BeaconText>Archer-Squad</BeaconText>
+          <Behaviour>RAI-Behavior-Fire-Fighter</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>55</Speed>
+        </Prefab>
+        <Prefab SubtypeId="Fire-Arrow">
+          <BeaconText>Arrow-Beta</BeaconText>
+          <Behaviour>RAI-Behavior-Fire-Fighter</Behaviour>
+          <Position>
+            <X>-100.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>55</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!-- Squad of 1 Assault and 2 Dogfighting Fighters -->    
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Fire-Assault-Fighters-3-SG</SubtypeId>
+      </Id>
+      <Description>
+      [Modular Encounters SpawnGroup]
+        
+      [AtmosphericCargoShip:true]
+      [RivalAiSpawn:true]
+      [RivalAiAtmosphericSpawn:true]
+
+      [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+      [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
+      [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]      
+      [ClearAuthorship:true]
+      [FactionOwner:FIRE]
+      [IgnoreGlobalBlockReplacer:true]
+      [MinSpawnFromPlanetSurface:900]
+      [MaxSpawnFromPlanetSurface:5000]
+      [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+      [PlanetRequiresAtmo:true]
+      [RandomGridNamePrefix:(FEC-F) ]
+      [ReplaceArmorBlocksWithModules:true]
+      [ReplenishSystems:true]
+      [RivalAiReplaceRemoteControl:true]
+      [ThreatScoreMinimum:125]
+      [ThreatScoreMaximum:5000]
+      [UseBlockReplacerProfile:true]
+      [UseRivalAi:true]
+      [UseThreatLevelCheck:true]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>2.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Fire-Archer">
+          <BeaconText>Archer-Alpha</BeaconText>
+          <Behaviour>RAI-Behavior-Fire-Fighter</Behaviour>
+          <Position>
+            <X>100.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>55</Speed>
+        </Prefab>
+        <Prefab SubtypeId="Fire-Meteor">
+          <BeaconText>Meteor-Assault</BeaconText>
+          <Behaviour>RAI-Behavior-Fire-Horsefly</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>55</Speed>
+        </Prefab>
+        <Prefab SubtypeId="Fire-Archer">
+          <BeaconText>Archer-Beta</BeaconText>
+          <Behaviour>RAI-Behavior-Fire-Fighter</Behaviour>
+          <Position>
+            <X>-100.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>55</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!-- LARGE GRIDS -->
+
+    <!-- Single Large Grid Fighter -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Fire-BlazingSpike-SG</SubtypeId>
+      </Id>
+      <Description>
+      [Modular Encounters SpawnGroup]
+        
+      [AtmosphericCargoShip:true]
+      [RivalAiSpawn:true]
+      [RivalAiAtmosphericSpawn:true]
+
+      [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+      [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
+      [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
+      [ClearAuthorship:true]
+      [FactionOwner:FIRE]
+      [IgnoreGlobalBlockReplacer:true]
+      [MinSpawnFromPlanetSurface:1200]
+      [MaxSpawnFromPlanetSurface:5000]
+      [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+      [PlanetRequiresAtmo:true]
+      [RandomGridNamePrefix:(FEC-F) ]
+      [ReplaceArmorBlocksWithModules:true]
+      [ReplenishSystems:true]
+      [RivalAiReplaceRemoteControl:true]
+      [ThreatScoreMinimum:100]
+      [ThreatScoreMaximum:5000]      
+      [UseBlockReplacerProfile:true]
+      [UseRivalAi:true]
+      [UseThreatLevelCheck:true]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>4.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Fire-BlazingSpike">
+          <BeaconText>Blazing Spike</BeaconText>
+          <Behaviour>RAI-Behavior-Fire-Fighter</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>55</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!-- Single Large Grid Light Aircraft Carrier -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Fire-Flamethrower-SG</SubtypeId>
+      </Id>
+      <Description>
+      [Modular Encounters SpawnGroup]
+        
+      [AtmosphericCargoShip:true]
+      [RivalAiSpawn:true]
+      [RivalAiAtmosphericSpawn:true]
+
+      [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+      [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
+      [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
+      [ClearAuthorship:true]
+      [FactionOwner:FIRE]
+      [IgnoreGlobalBlockReplacer:true]
+      [MinSpawnFromPlanetSurface:1000]
+      [MaxSpawnFromPlanetSurface:5000]
+      [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+      [PlanetRequiresAtmo:true]
+      [RandomGridNamePrefix:(FEC-F) ]
+      [ReplaceArmorBlocksWithModules:true]
+      [ReplenishSystems:true]
+      [RivalAiReplaceRemoteControl:true]
+      [ThreatScoreMinimum:100]
+      [ThreatScoreMaximum:5000]      
+      [UseBlockReplacerProfile:true]
+      [UseRivalAi:true]
+      [UseThreatLevelCheck:true]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>2.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Fire-Flamethrower">
+          <BeaconText>Flamethrower</BeaconText>
+          <Behaviour>RAI-Behavior-Fire-Carrier-Light</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!-- Single Large Grid Light Destroyer -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Fire-Blowtorch-SG</SubtypeId>
+      </Id>
+      <Description>
+      [Modular Encounters SpawnGroup]
+        
+      [AtmosphericCargoShip:true]
+      [RivalAiSpawn:true]
+      [RivalAiAtmosphericSpawn:true]
+
+      [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Atmo]
+      [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
+      [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
+      [ClearAuthorship:true]
+      [FactionOwner:FIRE]
+      [IgnoreGlobalBlockReplacer:true]
+      [MinSpawnFromPlanetSurface:1000]
+      [MaxSpawnFromPlanetSurface:5000]
+      [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+      [PlanetRequiresAtmo:true]
+      [RandomGridNamePrefix:(FEC-F) ]
+      [ReplaceArmorBlocksWithModules:true]
+      [ReplenishSystems:true]
+      [RivalAiReplaceRemoteControl:true]
+      [ThreatScoreMinimum:100]
+      [ThreatScoreMaximum:5000]      
+      [UseBlockReplacerProfile:true]
+      [UseRivalAi:true]
+      [UseThreatLevelCheck:true]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>2.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Fire-Blowtorch">
+          <BeaconText>Blowtorch</BeaconText>
+          <Behaviour>RAI-Behavior-Fire-Destroyer-Light</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>35</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
   </SpawnGroups>
 </Definitions>

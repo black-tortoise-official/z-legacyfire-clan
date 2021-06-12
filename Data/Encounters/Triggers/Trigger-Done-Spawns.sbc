@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- Spawn Onetime Instance of 3 Assorted Drones -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Trigger-Fire-Spawn-Onetime-Drone-3-Assorted</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Trigger]
+
+      [Actions:Action-Fire-Drone-3-Assorted]
+      [MaxActions:1]
+      [MaxCooldownMs:360000]
+      [MinCooldownMs:300000]            
+      [StartsReady:true]
+      [TargetDistance:1500]
+      [Type:PlayerNear]
+      [UseTrigger:true]
+      </Description>
+    </EntityComponent>
+
+    <!-- Spawn Repeat Instance of Single Drone -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Trigger-Fire-Spawn-Repeat-Drone-Single</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Trigger]
+
+      [Actions:Action-Fire-Spawn-Repeat-Drone-Single]
+      [MaxActions:-1]
+      [MaxCooldownMs:120000]
+      [MinCooldownMs:30000]            
+      [StartsReady:true]
+      [TargetDistance:1500]
+      [Type:PlayerNear]
+      [UseTrigger:true]
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

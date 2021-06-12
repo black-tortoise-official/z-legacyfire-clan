@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- SMALL GRID -->
+
+    <!-- Repeat Single Assorted Missile -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>Spawn-Fire-Repeat-Small-Missile-1-Assorted</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Spawn]
+      [UseSpawn:true]
+
+      [IgnoreSafetyChecks:true]
+      [InheritNpcAltitude:true]
+      [MaxSpawns:-1]
+      [MinDistance:300]
+      [MaxDistance:600]
+      [MinAltitude:50]
+      [MaxAltitude:300]  
+      [SpawnGroups:Fire-Missile-SG]
+      [SpawnGroups:Fire-Missile-II-SG]
+      [StartsReady:true]      
+      [UseRelativeSpawnPosition:false] 
+      </Description>    
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

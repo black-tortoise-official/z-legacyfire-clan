@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- Spawn 3 Instances of 3 Assorted Fighters -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Trigger-Fire-Spawn-Many-Fighters-3-Assorted</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Trigger]
+
+      [Actions:Action-Fire-Spawn-Many-Fighters-3-Assorted]
+      [MaxActions:3]
+      [MaxCooldownMs:315000]
+      [MinCooldownMs:300000]            
+      [StartsReady:true]
+      [TargetDistance:5000]
+      [Type:PlayerNear]
+      [UseTrigger:true]
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

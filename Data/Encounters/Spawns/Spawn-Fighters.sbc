@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- SQUADS -->
+
+    <!-- Many (3) Squads of 3 Fighters, Assorted -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>Spawn-Fire-Many-Fighters-3-Assorted</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Spawn]
+      [UseSpawn:true]
+
+      [IgnoreSafetyChecks:true]
+      [InheritNpcAltitude:true]
+      [MaxSpawns:3]
+      [MinDistance:600]
+      [MaxDistance:900]
+      [MinAltitude:30]
+      [MaxAltitude:600]  
+      [SpawnGroups:Fire-Fighters-3-SG]
+      [SpawnGroups:Fire-Assault-Fighters-3-SG]
+      [StartsReady:true]      
+      [UseRelativeSpawnPosition:false] 
+      </Description>    
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>RAI-Behavior-Fire-Missile</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Behavior]
+      [BehaviorName:Horsefly]
+      [IdealMaxSpeed:300]
+      [IdealMinSpeed:55]
+      [IdealPlanetAltitude:500]
+      [MinimumPlanetAltitude:5]      
+      [OffsetPlanetMinDistFromTarget:1]
+      [OffsetPlanetMaxDistFromTarget:5]
+      [OffsetPlanetMinTargetAltitude:-1]
+      [OffsetPlanetMaxTargetAltitude:5]
+      [Triggers:Trigger-Fire-Missile-Ram]
+      [RamMinDurationMs:3000]
+      [RamMaxDurationMs:120000]
+      </Description>
+    </EntityComponent>
+	</EntityComponents>
+</Definitions>

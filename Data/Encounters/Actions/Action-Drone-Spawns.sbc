@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- Spawn Single Drone -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Action-Fire-Spawn-Repeat-Drone-Single</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Action]
+      [SpawnEncounter:true]
+      [Spawner:Spawn-Fire-Repeat-Drone-Single]
+      </Description>
+    </EntityComponent>
+
+    <!-- Spawn 3 Assorted Drones -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Action-Fire-Spawn-Drone-3-Assorted</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Action]
+      [SpawnEncounter:true]
+      [Spawner:Spawn-Fire-Drone-3-Assorted]
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>
